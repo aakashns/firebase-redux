@@ -1,0 +1,12 @@
+{
+  "name": "firebase-redux",
+  "version": "0.0.1",
+  "description": "Connect your Redux store with the Firebase realtime database",
+  "main": "index.js",
+  "repository": "https://github.com/aakashns/firebase-redux",
+  "author": "Aakash N S <aakashns.sky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^19.0.2"
+  }
+}
