@@ -24,7 +24,7 @@ Set up a two way binding between the realtime database and the Redux store. `pat
 
 import { linkStoreWithPath } from 'firebase-redux';
 
-// The database path we want to bind
+// The database path you want to bind with
 const messagePath = '/message'
 
 // Action to dispatch when the value in the database changes
