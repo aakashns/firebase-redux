@@ -1,27 +1,13 @@
 {
   "name": "firebase-redux",
   "version": "0.0.1",
-  "description": "Connect your Redux store with the Firebase realtime database",
-  "main": "index.js",
+  "description": "Connect the Firebase realtime database with a Redux store",
+  "main": "dist/index.js",
   "repository": "https://github.com/aakashns/firebase-redux",
   "author": "Aakash N S <aakashns.sky@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "babel-eslint": "7.1.1",
-    "babel-jest": "^19.0.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
-    "eslint": "3.16.1",
-    "eslint-config-react-app": "^0.6.2",
-    "eslint-plugin-flowtype": "2.21.0",
-    "eslint-plugin-import": "2.0.1",
-    "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.4.1",
-    "firebase": "^3.7.2",
-    "jest": "^19.0.2",
-    "redux": "^3.6.0"
-  },
-  "scripts": {
-    "test": "jest --watch"
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
   }
 }
