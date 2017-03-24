@@ -19,7 +19,7 @@ yarn add firebase-redux
 
 Set up a two way binding between the realtime database and the Redux store. `path` specifies the location in the database that is bound, and `actionCreator` and `selector` specify how the Redux store should be written to and read from.
 
-### Example
+#### Example
 ```javascript
 
 import { linkStoreWithPath } from 'firebase-redux';
