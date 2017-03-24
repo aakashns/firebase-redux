@@ -1,7 +1,7 @@
 # firebase-redux
-Connect your Redux store with a Firebase realtime database. This library was written to accompany the Medium article: https://medium.com/@aakashns/575f8294332d
+Utility functions to connect your Redux store with a Firebase realtime database. This library was written to accompany the Medium article: https://medium.com/@aakashns/575f8294332d
 
-It provides utility methods `linkStoreWithPath`, `linkStoreWithChildren` and `linkStoreWithDb` to set up two-way bindings between portions of the Firebase realtime database and a Redux store.
+It provides utility functions `linkStoreWithPath`, `linkStoreWithChildren` and `linkStoreWithDb` to set up two-way bindings between portions of the Firebase realtime database and a Redux store.
 
 ## Installation
 Install using `npm` or `yarn`:
