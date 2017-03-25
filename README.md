@@ -38,7 +38,7 @@ const messageSelector = (state) => state.message;
 
 // Create a function to bind '/message' in the database
 // with 'state.message' in the Redux store
-const linkMessage = linkStoreWithMessage(
+const linkMessage = linkStoreWithPath(
   messagePath, 
   messageActionCreator, 
   messageSelector
